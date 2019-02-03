@@ -18,7 +18,7 @@ import com.deloitte.assignment.vo.Task;
 
 public class App {
 	private static final Logger logger = LoggerFactory.getLogger(App.class);
-	static String fileInput = "input.txt";
+	static String fileInput = "activities.txt";
 		
 	public static void main(String[] args) {
 
