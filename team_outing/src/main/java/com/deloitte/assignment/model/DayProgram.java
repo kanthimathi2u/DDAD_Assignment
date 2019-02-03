@@ -66,7 +66,8 @@ public class DayProgram {
 	public String insertEveningTask(Task task) {
 		
 		if (task != null){
-			task.setStartTime(this.eveningStart.plusMinutes(evening.getUsedSize()));
+			//task.setStartTime(this.eveningStart.plusMinutes(evening.getUsedSize()));
+  			task.setStartTime(this.morningStart.plusMinutes(morning.getUsedSize()).plusMinutes(evening.getUsedSize()));
 			 return this.evening.addTask(task);
 		}
 		return "false";
