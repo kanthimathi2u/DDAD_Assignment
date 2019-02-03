@@ -53,7 +53,7 @@ Log setup is based on the file located at src\main\resources\log4j.properties
 Other Generic activities like 'lunch break' and 'Staff Motivation Presentation' activities along with their duration details are listed in src\main\resources\assignment.properrties
     Example properties content:
           #to add Generic Activities in addition to the input tasks
-          brkTask=Lunch Break (minimum)
+          brkTask=Lunch Break
           brkDuration=60
           smpTask=Staff Motivation Presentation
           smpDuration = 60
