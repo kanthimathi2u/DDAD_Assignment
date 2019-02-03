@@ -15,7 +15,7 @@ public class TeamOutException extends Exception {
 
 	public TeamOutException(String message) {
 		super(message);
-		logger.debug("Exception has occured: " + message);
+		logger.debug("Exception has occured : " + message);
 	}
 
 }
